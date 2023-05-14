@@ -87,7 +87,7 @@ def message_handler(update: Update, context: CallbackContext):
         # jika belum, beri notifikasi
         update.message.reply_text("Anda belum bergabung pada FWB Channel. Silakan hubungi admin untuk informasi lebih lanjut.")
 
-# buat updater dan jadwalkan polling
+# buat updater dan jadwalkan polling 
 updater = Updater(BOT_TOKEN, use_context=True)
 
 dispatcher = updater.dispatcher
